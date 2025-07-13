@@ -1,0 +1,712 @@
+@import url("webfonts/ChimeroRegular_aYGEg/stylesheet.css");
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: rgba(228,212,185,1.00);
+    padding-top: 17px;
+    padding-left: 40px;
+    padding-right: 20px;
+    text-indent: 5px;
+    text-align: left;
+}
+.container-fluid .container {
+    max-width: 1300px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand .img-fluid {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: -1px;
+}
+
+.container-fluid {
+    background-color: rgba(0,0,0,1.00);
+}
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-toggler .navbar-toggler-icon {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: rgba(228,212,185,1.00);
+}
+.hero-image .hero-text p {
+    text-align: center;
+    color: rgba(228,212,185,1.00);
+
+
+}
+.hero-image .hero-text h1 {
+    font-family: "ChimeroRegular aYGEg";
+    color: rgba(228,212,185,1.00);
+}
+.bento-item.item-4 .overlay h2 {
+}
+
+.hero-image .hero-text .btn.btn-outline-success.my-2.my-sm-0 {
+    color: rgba(255,255,255,1.00);
+}
+.hero .hero-image .hero-text {
+    border-radius: 41px;
+}
+
+
+
+
+.container {
+  position: relative;
+  text-align: top right;
+  color: white;
+}
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Use #111 or red if background is light */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4); /* Optional overlay */
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-family: 'Kaisei Tokumin', serif; /* example */
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.hero .hero-image .hero-text {
+    padding-left: 36px;
+
+}
+
+.btn:hover {
+  background-color: darkred;
+}
+.bento-item.item-6 .img-wrapper .grid-image {
+}
+.bento-container .bento-item.item-7 p {
+    font-family: "ChimeroRegular aYGEg";
+    color: rgba(228,212,185,1.00);
+}
+.bento-container .bento-item.item-8 p {
+    color: rgba(228,212,185,1.00);
+    font-family: "ChimeroRegular aYGEg";
+    font-size: x-large;
+    text-align: center;
+}
+.bento-item.item-4 .overlay h2 {
+    color: rgba(228,212,185,1.00);
+}
+.bento-item.item-4 .overlay .btn {
+    color: rgba(228,212,185,1.00);
+}
+.bento-item.item-5 .overlay .btn {
+    color: rgba(228,212,185,1.00);
+}
+.bento-item.item-6 .overlay .btn {
+    color: rgba(228,212,185,1.00);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+.hero-image .hero-text .btn.btn-outline-success.my-2.my-sm-0 {
+    color: rgba(228,212,185,1.00);
+}
+.contact-section .contact-container p {
+    color: rgba(228,212,185,1.00);
+}
+.contact-form .form-group label {
+    color: rgba(228,212,185,1.00);
+}
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 768px) {
+      .bento-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+    }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+.contact-container .contact-form .btn {
+    color: rgba(228,212,185,1.00);
+}
+
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    padding: 0.75rem 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .hero-text p {
+    font-size: 0.85rem;
+  }
+}
+{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #a1130d;
+      color: white;
+    }
+
+    .bento-container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, minmax(100px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Or use "contain" if you want no cropping */
+  display: block;
+}
+
+
+
+    .bento-item {
+      border-radius: 16px;
+      background-color: #3b0b0b;
+      padding: 1rem;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bento-item h2,
+    .bento-item h3,
+    .bento-item p {
+      margin-bottom: 0.5rem;
+    }
+
+    .bento-item .btn {
+      background-color: black;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .item-1 { grid-column: 1 / span 2; grid-row: 1 / span 2; background-image: url('images/blank-eye.png'); }
+    .item-2 { grid-column: 1 / span 2; grid-row: 3 / span 2; background-image: url('images/one-eye.png'); }
+    .item-3 { grid-column: 1 / span 2; grid-row: 5 / span 2; background-image: url('images/both-eyes.png'); }
+    .item-4 { grid-column: 3 / span 4; grid-row: 1 / span 3; background-image: url('images/daruma-main.jpg'); }
+    .item-5 { grid-column: 3 / span 2; grid-row: 4 / span 2; background-image: url('images/craftsmanship.jpg'); }
+    .item-6 { grid-column: 5 / span 2; grid-row: 4 / span 2; background-image: url('images/collection.jpg'); }
+    .item-7 { grid-column: 3 / span 2; grid-row: 6 / span 1; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+    .item-8 { grid-column: 5 / span 2; grid-row: 6 / span 1; display: flex; align-items: center; justify-content: center; background-image: url(''); background-size: contain; background-repeat: no-repeat; background-position: center; }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 1024px) {
+      .bento-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+      }
+      .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8 {
+        grid-column: span 2;
+        grid-row: auto;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .bento-container {
+        grid-template-columns: 1fr;
+      }
+      .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8 {
+        grid-column: span 1;
+        grid-row: auto;
+      }
+    }
+/* Fix image inside item-6 to fully show without cropping */
+.item-6 .grid-image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+.btn:hover {
+  background-color: darkred;
+}
+	
+ *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #a1130d;
+      color: #fff;
+      line-height: 1.6;
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-section {
+      background-color: #a1130d;
+      color: #fff;
+      padding: 4rem 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .contact-container {
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .contact-container h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: rgba(228, 212, 185, 1);
+    }
+
+    .contact-container p {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: left;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    input,
+    textarea {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #aaa;
+    }
+
+    button.btn {
+      align-self: flex-start;
+      background-color: #000;
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-size: 1rem;
+    }
+
+    button.btn:hover {
+      background-color: darkred;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .contact-container {
+        padding: 0 1rem;
+      }
+
+      .contact-container h2 {
+        font-size: 2rem;
+      }
+
+      .contact-container p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .contact-section {
+        padding: 3rem 1rem;
+      }
+
+      .contact-container h2 {
+        font-size: 1.8rem;
+      }
+
+      .contact-container p {
+        font-size: 0.95rem;
+      }
+
+      input,
+      textarea {
+        font-size: 0.95rem;
+      }
+
+      button.btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+      }
+    }	
+footer {
+    background-color: #000;
+    color: #ccc;
+    padding: 3rem 2rem 2rem;
+    font-size: 0.95rem;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .footer-column h4 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo-circle {
+    background-color: #a1130d;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo p {
+    margin-top: 0.5rem;
+  }
+
+  .footer-dots span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 5px 3px 0;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .footer-column {
+      width: 100%;
+    }
+  }
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daruma Artisan Studio</title>
+	  <link rel="icon" type="image/x-icon" href="images/logo_final-removebg-preview fevicon.png">
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="images/logo_final-removebg-preview.png" alt="" width="300" height="61" class="img-fluid"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"> <a class="nav-link" href="#">Our Story</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Craftsmanship</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Products</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a></li>
+            <li class="nav-item dropdown">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a> </div>
+        </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+          </form>
+        </div>
+      </nav>
+    </div>
+  </div>
+	  
+	  
+<section class="hero">
+  <div class="hero-image">
+    <img src="images/Untitled design (2) (1).jpg" width="100%" alt="Daruma Doll">
+    <div class="hero-text">
+      <h1>Crafted with Spirit</h1>
+      <p>"Each Daruma begins with a blank eye a symbol of hope, focus, and perseverance. At Daruma Artisan Studio, tradition is not just preserved, it's lived through every brushstroke."</p>
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </div>
+  </div>
+</section>
+	  
+  <section class="bento-container">
+
+   <div class="bento-item item-1">
+  <div class="img-wrapper">
+    <img src="images/diy1.png" alt="Blank Eye Daruma" class="grid-image">
+  </div>
+</div>
+
+<div class="bento-item item-2">
+  <div class="img-wrapper">
+    <img src="images/diy2.png" alt="One Eye Daruma" class="grid-image">
+  </div>
+</div>
+
+<div class="bento-item item-3">
+  <div class="img-wrapper">
+    <img src="images/diy3.png" alt="Both Eyes Daruma" class="grid-image">
+  </div>
+</div>
+
+    <div class="bento-item item-4">
+      <div class="img-wrapper">
+        <img src="images/Best Day trips From Osaka, Japan.jpg" alt="Daruma Doll in Temple" class="grid-image">
+      </div>
+      <div class="overlay">
+        <h2>CRAFTED WITH SPIRIT</h2>
+        <button class="btn">Get Started</button>
+      </div>
+    </div>
+
+    <div class="bento-item item-5">
+      <div class="img-wrapper">
+        <img src="images/CvJXM3ta26Gg7fQYcHNWqyDvzdmdr98NwcDs5Rly-1920x1080.jpg" alt="Craftsmanship" class="grid-image">
+      </div>
+      <div class="overlay">
+        <button class="btn">Craftsmanship</button>
+      </div>
+    </div>
+
+    <div class="bento-item item-6">
+      <div class="img-wrapper">
+		 <img src="images/ChatGPT_Image_Jun_30__2025__12_30_03_PM-removebg-preview (2).png" alt="Collection" class="grid-image"></div>
+      <div class="overlay">
+        <button class="btn">View the Collection</button>
+      </div>
+    </div>
+
+    <div class="bento-item item-7">
+      <p>Hope is handcrafted.</p>
+    </div>
+
+    <div class="bento-item item-8">
+	   <p>"Fall down seven times, get up eight."</p>
+	  </div>
+
+  </section>
+
+ <!-- Contact Us Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you. Send us a message or connect with us through the form below.</p>
+
+      <form action="#" method="post" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+<footer>
+  <div class="footer-container">
+    <!-- Column 1 -->
+    <div class="footer-column">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Craftsmanship</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-column">
+      <h4>More</h4>
+      <ul>
+        <li><a href="#">Traditions</a></li>
+        <li><a href="#">Workshops</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="footer-column footer-logo">
+     
+      <img src="images/logo_final-removebg-preview.png" width="300" height="auto" alt=""/>    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 Daruma Artisan Studio · All rights reserved · <a href="#">Privacy Policy</a></p>
+  </div>
+</footer>
+	  
+	  
+	  
+	  
+
+<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
